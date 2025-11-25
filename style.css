@@ -9,6 +9,13 @@ html {
   width: 100%;
 }
 
+.section {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 80vh;
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
   background-color: #f8f8f8;
