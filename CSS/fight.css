@@ -1,0 +1,121 @@
+#fight {
+  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+#fight h1 {
+  text-align: center;
+  color: #1d8e7b;
+}
+#fight p {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+#fight ul {
+  max-width: 800px;
+  width: 100%;
+  list-style-type: disc;
+  position: relative;
+  margin: auto;
+  font-size: 24px;
+  margin-top: 15px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+#fight ul li {
+  margin-bottom: 10px;
+  background-color: #b7b2cc;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#fight .fight-img {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#fight .txt-img {
+  position: absolute;
+  top: 10px;
+  right: 40%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  max-width: 260px;
+  height: auto;
+}
+#fight .txt-img img {
+  width: 100%;
+  height: auto;
+}
+
+#fight .fight-img img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  #fight .fight-img img {
+    max-width: 90%;
+    width: 100%;
+    height: auto;
+  }
+  #fight p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  #fight h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 780px) {
+  #fight .fight-img img {
+    max-width: 95%;
+    width: 100%;
+    height: auto;
+  }
+  #fight p {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  #fight {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  #fight .fight-img img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  #fight p {
+    font-size: 15px;
+    padding: 0 10px;
+    text-align: left;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  #fight {
+    padding: 10px 5px;
+  }
+}

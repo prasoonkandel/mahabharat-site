@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: visible;
+  width: 100%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #97c7bf;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: "Mozilla Headline", sans-serif;
+  font-size: 48px;
+}
+header h1 {
+  color: #af3903;
+  text-align: center;
+  margin: 0;
+  font-family: "Mozilla Headline", sans-serif;
+}
+
+#hero {
+  text-align: center;
+  overflow: hidden;
+  background-color: #a197c7;
+  width: 100%;
+  max-width: 100%;
+}
+#hero img {
+  width: 60%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+nav {
+  background-color: #97c7bf;
+  width: 100%;
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav ul {
+  max-width: 700px;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+
+  width: 100%;
+}
+nav ul li {
+  padding: 10px;
+
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3ms;
+}
+nav ul li:hover,
+nav ul li.active {
+  background-color: #af3903;
+  transition: 0.3s;
+  color: #f8f8f8;
+  transition: 0.3s;
+}
+
+footer {
+  background-color: #97c7bf;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+footer span {
+  display: block;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 36px;
+  }
+  nav ul {
+    max-width: 560px;
+  }
+  nav ul li {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  nav ul {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  nav ul li {
+    padding: 8px 4px;
+    font-size: 14px;
+  }
+  #hero img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  nav ul li {
+    padding: 6px 2px;
+    font-size: 12px;
+  }
+  header h1 {
+    font-size: 32px;
+  }
+  #hero img {
+    max-height: 100px;
+  }
+}
+
+.github {
+  width: 60px;
+  height: 60px;
+  background-color: #017dcf;
+  padding: 3px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+.github i {
+  color: #f8f8f8;
+  font-size: 36px;
+  line-height: 54px;
+}
