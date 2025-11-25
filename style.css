@@ -44,19 +44,20 @@ header h1 {
 
 #hero {
   text-align: center;
-  overflow: hidden;
+  max-height: 400px;
   background-color: #a197c7;
-  width: 100%;
-  max-width: 100%;
 }
 #hero img {
-  width: 60%;
+  width: 100%;
   height: auto;
-  max-height: 200px;
+  max-height: 400px;
+
   object-fit: cover;
-  margin: 0 auto;
+  margin: 0;
+  max-width: 100%;
 }
 nav {
+  margin-top: 0px;
   background-color: #97c7bf;
   width: 100%;
   max-width: 100%;
@@ -130,7 +131,7 @@ footer span {
     font-size: 14px;
   }
   #hero img {
-    max-height: 150px;
+    max-height: 20s0px;
   }
 }
 
